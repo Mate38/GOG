@@ -723,7 +723,7 @@
 									<p:selectOneMenu value="#{mBManifestacao.idUsuarioEncaminhamento}"
 										id="slcUsuarioTramite" style="width: 250px"
 										disabled="#{mBManifestacao.idOrgaoDestino.size() > 1}">
-										<f:selectItem itemLabel="- Selecione -" itemValue="" />
+										<!-- <f:selectItem itemLabel="- Selecione -" itemValue="" /> -->
 										<f:selectItems 
 											value="#{mBManifestacao.usuarios}" var="item"
 											itemLabel="#{item.nmUsuario}"
