@@ -117,15 +117,15 @@ public class EmailService {
         // configura a mensagem para o formato HTML  
         StringBuilder emailTextoHtml = new StringBuilder()
         .append("<div style='font-family: Arial, Verdana; font-size: 14px;'>")
-        .append("<center><span style='color: #006600; font-weight: bold;'>")
-        .append("Ouvidoria Ministério da Cultura")
+        .append("<center><span style='color: #3333ff; font-weight: bold;'>")
+        .append("Ouvidoria da Prefeitura de Videira")
         .append("</span></center>")
         .append("<br/>")
         .append("<p>Prezado%s,</p>")
         .append("<p>A manifestação de número %s tem um novo comentário. Acesse o sistema para verificar a mensagem.</p>")
         .append("<br/>")
-        .append("<center><span style='color: #006600; font-weight: bold; font-size: 11px;'>")
-        .append("Mensagem enviada automaticamente pelo sistema de Ouvidoria do Ministério da Cultura.")
+        .append("<center><span style='color: #3333ff; font-weight: bold; font-size: 11px;'>")
+        .append("Mensagem enviada automaticamente pelo sistema de Ouvidoria da Prefeitura de Videira.")
         .append("</span></center>")
         .append("</div>");
 
